@@ -309,15 +309,24 @@
 .service-item {
   display: flex;
   flex-direction: column;
-  height: 100px;
-}
-.service-item {
-  height: 100%;                 /* SAMAKAN TINGGI */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* tombol ke bawah */
+  height: 100%;
 }
 
+.service-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-content-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-content-inner .btn {
+  margin-top: auto; /* tombol turun ke bawah */
+}
 /*** Service End ***/
 
 /*** Blog Start ***/
