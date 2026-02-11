@@ -23,3 +23,36 @@ echo "Umur: $umur tahun<br>";
 echo "berat badan: $berat kg<br>";
 echo "tinggi badan: $tinggi cm<br>";
 
+echo "Operator Relasi<br>";
+$a = 8;
+$b = 3;
+
+// menggunakan operator relasi lebih besar
+$c = $a > $b;
+echo "$a > $b: $c";
+echo "<hr>";
+
+// menggunakan operator relasi lebih kecil
+$c = $a < $b;
+echo "$a < $b: $c";
+echo "<hr>";
+
+// menggunakan operator relasi lebih sama dengan
+$c = $a == $b;
+echo "$a == $b: $c";
+echo "<hr>";
+
+// menggunakan operator relasi lebih tidak sama dengan
+$c = $a != $b;
+echo "$a != $b: $c";
+echo "<hr>";
+
+// menggunakan operator relasi lebih besar sama dengan
+$c = $a >= $b;
+echo "$a >= $b: $c";
+echo "<hr>";
+
+// menggunakan operator relasi lebih kecil sama dengan
+$c = $a <= $b;
+echo "$a <= $b: $c";
+echo "<hr>";
