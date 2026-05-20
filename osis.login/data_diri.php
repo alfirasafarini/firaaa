@@ -23,7 +23,11 @@ if (isset($_POST['simpan'])) {
     body { 
     font-family: 'Segoe UI', sans-serif; 
     /* Mengambil foto background */
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.osiss.png'); 
+=======
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.osis.png'); 
+>>>>>>> c78d77fb26b795f8b162c984eb2c8155ef930b1a
     
     /* Agar foto memenuhi layar dan tidak berulang */
     background-size: cover;
