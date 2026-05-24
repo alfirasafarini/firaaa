@@ -213,6 +213,6 @@ if (isset($_GET['hapus'])) {
         </table>
     </div>
 
-    <div class="footer">&copy; 2026 CRUD Biodata Pengurus OSIS SMKN 2</div>
+    <div class="footer">&copy; 2026 CRUD Biodata Pengurus Inti OSIS SMKN 2</div>
 </body>
 </html>
