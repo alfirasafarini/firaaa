@@ -170,7 +170,7 @@ if (isset($_GET['hapus'])) {
         <div class="info-bar">
             <div class="user-status">Login sebagai : <span><?php echo $user_login; ?></span></div>
             <div>
-                <a href="indexd.html" class="btn-web">Beranda </a>
+                <a href="indexb.html" class="btn-web">Beranda </a>
                 <a href="logout.php" class="btn-logout" onclick="return confirm('Yakin ingin keluar?')">Logout</a>
             </div>
         </div>
