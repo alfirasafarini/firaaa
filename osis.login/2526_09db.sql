@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 20, 2026 at 04:57 AM
+-- Generation Time: May 24, 2026 at 08:59 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -42,11 +42,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `nama`, `nis`, `kelas`, `jabatan`) VALUES
-(1, '2425.10.147', '310109', 'siti', '242510150', 'XI TJKT 2', 'Ketua'),
-(2, '2425.10.379', '123456', 'Muhammad Ilham ', '2425.10.379', 'XI KULINER 4', 'Ketua'),
-(3, '2425.10.046', '123456', 'Fitria Octaviany', '242510046', 'XI TKI 2', 'Wakil Ketua'),
-(4, '2425.10.379', '123456', 'Muhammad Ilham ', '2425.10.379', 'XI KULINER 4', 'Ketua'),
-(5, '2425.10.046', '123456', 'Fitria Octaviany', '242510046', 'XI TKI 2', 'Wakil Ketua');
+(2, '2425.10.379', '12345678', 'Muhammad Ilham ', '2425.10.379', 'XI KULINER 4', 'Ketua'),
+(5, '2425.10.046', '12345678', 'Fitria Octaviany', '2425.10.046', 'XI TKI 2', 'Wakil Ketua'),
+(6, '2425.10.057', '12345678', 'Natasya Tri Rizkia Saputri ', '2425.10.057', 'XI TKI 2', 'Sekretaris'),
+(7, '2526.10.460', '12345678', 'Putri Fajriyyah Al Khoeriyyah ', '2526.10.460', 'X KULINER 5', 'Wakil Ketua '),
+(8, '2526.10.195', '12345678', 'Raisya Utami', '2526.10.195', 'X TJKT 2', 'Sekretaris'),
+(9, '2425.10.385', '12345678', 'Putri Nadia Agustin', '2425.10.385', 'XI KULINER 4', 'Bendahara'),
+(10, '2526.10.042', '12345678', 'Zulfia', '2526.10.042', 'X TKI 1', 'Bendahara');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +68,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
