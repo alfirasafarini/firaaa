@@ -86,7 +86,7 @@ if (isset($_POST['login'])) {
     <div class="login-card">
         <h2>LOGIN OSIS</h2>
         <form method="POST">
-            <input type="text" name="NIS" placeholder="NIS" required>
+            <input type="text" name="NIS" placeholder="username" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit" name="login">Masuk</button>
         </form>
