@@ -3,7 +3,7 @@ include 'koneksi.php';
 session_start();
 
 if (isset($_POST['login'])) {
-    $user = $_POST['username'];
+    $user = $_POST['NIS'];
     $pass = $_POST['password'];
 
     $query = mysqli_query($conn, "SELECT * FROM users WHERE username='$user' AND password='$pass'");
